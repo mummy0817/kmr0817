@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+/* .txt1 { font-family: "AppleSDGothicNeoEB", sans-serif; } */
+
+@font-face { 
+    font-family: AppleSDGothicNeoB;
+    src:local("AppleSDGothicNeoB"),
+        url("../font/AppleSDGothicNeoB.eot"),
+        url("../font/AppleSDGothicNeoB.woff") format("woof"),
+        url("../font/AppleSDGothicNeoB.ttf") format("truetype");
+}
+
+@font-face { 
+    font-family: AppleSDGothicNeoEB;
+    src:local("AppleSDGothicNeoEB"),
+        url("../font/AppleSDGothicNeoEB.eot"),
+        url("../font/AppleSDGothicNeoEB.woff") format("woof"),
+        url("../font/AppleSDGothicNeoEB.ttf") format("truetype");
+}
+
+@font-face { 
+    font-family: AppleSDGothicNeoH;
+    src:local("AppleSDGothicNeoH"),
+        url("../font/AppleSDGothicNeoH.eot"),
+        url("../font/AppleSDGothicNeoH.woff") format("woof"),
+        url("../font/AppleSDGothicNeoH.ttf") format("truetype");
+}
+
+@font-face { 
+    font-family: AppleSDGothicNeoL;
+    src:local("AppleSDGothicNeoL"),
+        url("../font/AppleSDGothicNeoL.eot"),
+        url("../font/AppleSDGothicNeoL.woff") format("woof"),
+        url("../font/AppleSDGothicNeoL.ttf") format("truetype");
+}
+
+@font-face { 
+    font-family: AppleSDGothicNeoM;
+    src:local("AppleSDGothicNeoM"),
+        url("../font/AppleSDGothicNeoM.eot"),
+        url("../font/AppleSDGothicNeoM.woff") format("woof"),
+        url("../font/AppleSDGothicNeoM.ttf") format("truetype");
+}
+
+@font-face { 
+    font-family: AppleSDGothicNeoR;
+    src:local("AppleSDGothicNeoR"),
+        url("../font/AppleSDGothicNeoR.eot"),
+        url("../font/AppleSDGothicNeoR.woff") format("woof"),
+        url("../font/AppleSDGothicNeoR.ttf") format("truetype");
+}
+
+@font-face { 
+    font-family: AppleSDGothicNeoSB;
+    src:local("AppleSDGothicNeoSB"),
+        url("../font/AppleSDGothicNeoSB.eot"),
+        url("../font/AppleSDGothicNeoSB.woff") format("woof"),
+        url("../font/AppleSDGothicNeoSB.ttf") format("truetype");
+}
+
+@font-face { 
+    font-family: AppleSDGothicNeoT;
+    src:local("AppleSDGothicNeoT"),
+        url("../font/AppleSDGothicNeoT.eot"),
+        url("../font/AppleSDGothicNeoT.woff") format("woof"),
+        url("../font/AppleSDGothicNeoT.ttf") format("truetype");
+}
+
+@font-face { 
+    font-family: AppleSDGothicNeoUL;
+    src:local("AppleSDGothicNeoUL"),
+        url("../font/AppleSDGothicNeoUL.eot"),
+        url("../font/AppleSDGothicNeoUL.woff") format("woof"),
+        url("../font/AppleSDGothicNeoUL.ttf") format("truetype");
+}
+
+
+
+
+
+
+

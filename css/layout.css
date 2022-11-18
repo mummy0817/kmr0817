@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/* reset */
+a { text-decoration: none; color: inherit; }
+body { font: normal 14px "AppleSDGothicNeoB",sans-serif; }
+html, body { width: 100%; height: 100%; }
+
+/* wrap */
+#wrap { width: 100%; height: 100%; min-width: 360px/* 최소너비설정 */; }
+
+/* header */
+header {height:68px;}
+header .top_wrap {position:fixed; top:0; left:0; width:100%; height:68px; background-color: #fff;}
+header .top_wrap h1 {padding-top:18px; margin-left:15px;}
+header .top_wrap h1 img {width:55px; height:auto;}
+header .top_wrap .quick {position:absolute; top:0; right:15px; font-size:0;}
+header .top_wrap .quick li {display:inline-block; vertical-align:middle;}
+header .top_wrap .quick li a {display:block; width:40px; height:68px; background-repeat:no-repeat; background-position:center; background-size:26px auto; color:transparent;}
+header .top_wrap .quick li.btn_search a {background-image:url('../images/search.png');}
+header .top_wrap .quick li.btn_cart a {background-image:url('../images/bag.png'); background-size:34px}
+header .top_wrap .quick li.btn_menu a {background-image:url('../images/category_icon.png');}
+
+nav { background-color: rgba(255,255,255,1); width:100%; height:100vh; position:fixed; top:0; z-index:999; right:-100%;}
+nav .menu_wrap {}
+nav .menu_wrap p { font-size: 18px; width: 130px; height: 30px; line-height: 30px; margin-left: 30px; margin-top: 20px; font-family: "AppleSDGothicNeoSB"; margin-bottom: 20px; } 
+nav .menu_wrap p:hover { transform: scale(1.1); }
+nav .menu_close { position: absolute; top: -3px; right: -70px; z-index: 3;}
+nav .menu_close:hover { transform: scale(1.1); }
+
+nav .menu_wrap .menu {padding:20px 0 0 10px; border-top: 2px solid #cbcbcb; width:100%;}
+nav .menu_wrap .menu li { display: inline-block; margin-right:28px;}
+nav .menu_wrap .menu li a {display:block; border-bottom:2px solid #fff; color: rgb(176, 176, 176); font-size:20px;}
+nav .menu_wrap .menu li a.on,
+nav .menu_wrap .menu li a:hover {border-color:#000; font-family:"AppleSDGothicNeoEB"; color:#000;}
+nav .category {padding:30px 0 0 10px;}
+nav .category .submenu {display:none;}
+nav .category .submenu ul > li {margin-left: 10px; margin-bottom: 5px;}
+nav .category .submenu ul > li > a {color:#000; font-size:18px;}
+
+nav .category .submenu .subsubmenu { margin-left: 15px; display: none; }
+nav .category .submenu .subsubmenu li a { font-size: 16px; text-align: left; font-family: "AppleSDGothicNeoM"; color: #434343; margin-top: 0px; }
+nav .category .submenu .subsubmenu li a:hover { font-family: "AppleSDGothicNeoB"; color:#000; }
+
+/* container */
+#container { clear: both; }
+.ad { text-align: center; cursor: pointer; }
+.ad img {width:100%; height:auto;}
+.text { text-align: left; margin-left: 20px; }
+
+figcaption { font-size: 26px; font-style: italic; font-family: "AppleSDGothicNeoH"; margin-top: 10px; margin-bottom: 3px; }
+.ad button { margin-top: 20px; width: 100px; height: 35px; line-height: 35px; border: 1px solid #000; background-color: #fff; font-family: "AppleSDGothicNeoB"; cursor: pointer; }
+.ad button:hover { background-color: #000; color: #fff; }
+
+/* new_wrap */
+#new_wrap h2, #best_wrap h2 { font-size: 24px; margin-top: 60px; margin-bottom: 7px; }
+.title {padding-left:20px;}
+#new_wrap .title .go {display:block; padding-left:20px; background:url('../images/arrow.png') no-repeat left center /17px auto;}
+
+#new_wrap .item_wrap {margin-top:25px; padding:0 30px; font-size:0; }
+#new_wrap .item_wrap ul {display:inline-block; width:49%;}
+#new_wrap .item_wrap ul:first-child {margin-right:2%;} 
+#new_wrap .item_wrap ul li {text-align: center;}
+#new_wrap .item_wrap ul li a {display: block; font-size:12px;}
+#new_wrap .item_wrap ul li a img {width:100%; height:auto;}
+
+/* best_wrap */
+#best_wrap .title {padding-left:20px;}
+#best_wrap .title .go {display:block; padding-left:20px; background:url('../images/arrow.png') no-repeat left center /17px auto;}
+#best_wrap .item_wrap {margin-top:25px; padding:0 30px; font-size:0; margin-bottom: 80px;}
+#best_wrap .item_wrap ul {display:inline-block; width:49%;}
+#best_wrap .item_wrap ul:first-child {margin-right:2%;} 
+#best_wrap .item_wrap ul li {text-align: center;}
+#best_wrap .item_wrap ul li a {display: block; font-size:12px;}
+#best_wrap .item_wrap ul li a img {width:100%; height:auto;}
+
+
+
+/* bottom */
+#bottom {margin-top: 50px; width: 100%; padding-bottom:86px; background-color: #000; overflow: hidden; }
+
+.fnb_wrap { background-color: #212121; width: 100%; height: 60px; text-align: center; }
+.fnb li { display: inline-block; font-size: 18px; font-family: "AppleSDGothicNeoEB"; margin: 20px; color: #fff; }
+.fnb li:hover { color: rgb(171, 171, 171); }
+
+.b_left {position:relative; padding-right:170px; font-size: 12px; background-color: #000;}
+.b_left address { font-style: normal; margin: 30px 0 40px 20px;; color: rgb(167, 167, 167) }
+.b_left p { margin-left: 20px; margin-bottom: 30px; color: #fff; }
+.b_left .sns {position:absolute; top:0; right:20px; width: 140px; }
+.b_left .sns li { width: 40px; height: 40px; text-align: center; vertical-align: middle; background-color: rgba(255,255,255,0.7); border-radius: 7px; display: inline-block; margin: 0 2px; }
+.b_left .sns li img { margin-top: 5px; }
+.b_left .sns li:hover { background-color: rgba(255,255,255,1); }
+
+/* gnb_wrap */
+.gnb_wrap {position: fixed; bottom:0; left:0; width:100%; height:80px; background-color: #fff; border-top: 1px solid #eaeaea;}
+.gnb_wrap .gnb { text-align: center; margin-top: 7px; }
+.gnb_wrap .gnb li { display:inline-block; margin: 0 2%; }
+.gnb_wrap .gnb .gnb_gategory { margin-left: 0; }
+.gnb_wrap .gnb .gnb_gategory img { width: 35px; }
+.gnb_wrap .gnb .gnb_bag img { width: 45px; }
+.gnb_wrap .gnb li .gnb_history { margin-right: 0; }
+.gnb_wrap .gnb li a {display:inline-block; width:50px; height:68px; background-repeat:no-repeat; background-position:top center; background-size:45px auto; }
+.gnb_wrap .gnb img { width: 40px; height: auto; }
+
+/* totop */
+
+.totop { width: 100%; text-align: center; position: fixed; bottom: 80px; display: none; }
+.totop img { display: inline-block; width: 40px; height: 30px; background-color: rgba(21, 21, 21, 0.3); border-radius: 20px; }
+
